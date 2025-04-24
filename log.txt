@@ -1,0 +1,12 @@
+^C-------------------- 
+16/04/2025  7:30:37.74 
+Request was a success! Status code: 200
+Connected to PostgreSQL successfully!
+Data already present within table.
+All data processed successfully!
+-------------------- 
+23/04/2025  7:10:31.00 
+Request was a success! Status code: 200
+Connected to PostgreSQL successfully!
+3 row(s) have been added to the database.
+All data processed successfully!
