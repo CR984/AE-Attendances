@@ -63,8 +63,6 @@ if response.status_code == 200:
 # In[7]:
 
 
-import pandas as pd
-
 # Convert records to a DataFrame
 df = pd.DataFrame(records)
 
@@ -91,7 +89,7 @@ df.head()
 
 # Create a connection to the database
 db_user = "postgres"
-db_password = "Chilli55"
+db_password = os.environ.get("DB_PASSWORD")
 db_host = "localhost"
 db_port = "5432"
 db_name = "A&E Attendances"
