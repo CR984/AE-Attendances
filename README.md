@@ -3,7 +3,7 @@
 ## Overview
 An end-to-end ETL pipeline that extracts weekly A&E attendance data for St John's Hospital from the NHS Scotland Open Data API, transforms and loads it into a PostgreSQL database, and visualises it in Power BI.
 
-Built as a personal project to develop practical data engineering skills including API integration, database design, pipeline automation and data visualisation.
+Built as a personal project to develop data engineering skills including API integration, database design and pipeline automation.
 
 ## Pipeline Architecture
 
@@ -14,8 +14,8 @@ Built as a personal project to develop practical data engineering skills includi
 5. **Orchestration** — Scheduled via Windows Task Scheduler to run automatically every Wednesday morning with a log file recording each run
 
 ## Technical Decisions
-- **Incremental loading** rather than truncate and reload — prevents duplicate entries and preserves historical data
-- **Environment variables** for database credentials — avoids hardcoding sensitive information in the codebase
+- **Incremental loading** — prevents duplicate entries and preserves historical data
+- **Environment variables** — avoids hardcoding sensitive information in the code
 - **Automated scheduling with logging** — pipeline runs unattended with a timestamped log file to monitor success and failure
 
 ## Technologies Used
