@@ -6,7 +6,6 @@ An end-to-end ETL pipeline that extracts weekly A&E attendance data for St John'
 Built as a personal project to develop practical data engineering skills including API integration, database design, pipeline automation and data visualisation.
 
 ## Pipeline Architecture
-Extract → Transform → Load → Visualise
 
 1. **Extract** — Python script queries the NHS Scotland Open Data API, filtering to St John's Hospital
 2. **Transform** — Data is cleaned, column names standardised and irrelevant fields removed
@@ -24,6 +23,3 @@ Extract → Transform → Load → Visualise
 - PostgreSQL
 - Power BI
 - Windows Task Scheduler
-
-## Dashboard
-A PDF export of the Power BI dashboard is included in this repository.
